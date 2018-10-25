@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+body{
+background-color: #222;
+}
+
+h1{
+  color: white;
+}
+.App-header {
+  text-align: center;
+  background-color: #222;
+  font-family:lato;
+  font-weight: bold;
+  height: auto;
+  padding:10px;
+  color:white;
+}
+
+
+.App-title {
+  font-size: 5em;
+  padding-bottom:20px; 
+}
+
+.App-intro {
+  font-size: 2em;
+  border-bottom: 2px solid white;
+  line-height: .1em;
+}
+
+.contactButton{
+  float:left;
+ }
+
+.leftAlign{
+  float:left;
+}
+.blockContact{
+  display:block;
+  padding: 25px 25px;
+  font-size: 25;
+  line-height: 1.33;
+  border-radius: 6px
+}
+.lineAround{
+  background:#222;
+  padding:0 10px;
+}
+
+.btn:focus,.btn:active {
+  outline:none !important;
+  box-shadow:none;}
+
+.tabs{
+  padding-top:20px;
+}
+
+.view{
+  position:relative;
+  color:white;
+  font-family: lato;
+}
+
+.sideTabs{
+  background-color:#222;
+  /*transform: rotate(-90deg);*/
+}
+
+.content {
+  position:absolute;
+  width:90%;
+  padding: 20px 20px ;
+  top:5%;
+  left:5%;
+  background: rgba(51,51,51,0.75);
+}
+
+.card{
+  color:black;
+  width:18em;
+  margin:10px;
+}
+.card-img-top{
+}
+
+.preview{
+  width:200px;
+  height:200px;
+}
+
+.searchBox{
+ text-align:center;
+ margin:10px 10px; 
+}
+
+.form-control{
+  max-width:200px;
+  margin: auto auto;
+}

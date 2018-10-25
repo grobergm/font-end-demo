@@ -1,0 +1,46 @@
+
+#ranking {
+  	border-radius: 25%;
+  	background:white;
+  	width:10rem;
+  	display:none;
+}
+.card{
+	width:10rem;
+	margin:10px;
+	height:50%
+}
+
+.card i{
+	padding-bottom:10px;
+}
+
+.cat{
+	font-family:Dancing Script;
+}
+
+.cat h1{
+	font-size:2rem;
+	color:steelblue;
+}
+.dog h1{
+	font-size:2rem;
+	color:#950412;;
+}
+.dog{
+	font-family:Permanent Marker, cursive;
+}
+
+.card p{
+	color:black;
+}
+
+.selected{
+	transform:scale(1.5);
+	z-index:1;
+	box-shadow:0 1px 4px #222;
+}
+
+.selected #ranking {
+	display:inline;
+}
